@@ -1,0 +1,136 @@
+@media (max-width: 1400px) {
+    header {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    footer {
+        grid-template-columns: 1fr 300px;
+    }
+}
+
+
+
+@media (max-width: 900px) {
+    .nav-links {
+        display: none;
+    }
+
+    header {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    header .image {
+        grid-area: 1/1/2/2;
+    }
+
+    footer {
+        grid-template-columns: 1fr 200px;
+    }
+}
+    
+
+@media (max-width: 600px) {
+    .about{
+        padding: 1rem;
+    }
+
+    .header h1{
+       font-size: 1rem ;
+    }
+
+    footer {
+        grid-template-columns: 1fr 150px;
+    }
+
+    header .image-container.small {
+        margin-top: 1.5rem;
+    }
+}
+
+
+@media (max-width: 991px) {
+    .timeline-row {
+        grid-template-columns: 1fr;
+    }
+
+    .timeline-row .timeline-column:nth-child(2) {
+        margin-top: 30px;
+    }
+}
+
+@media (max-width: 767px) {
+    .services-content {
+      flex-direction: column; 
+      align-items: center;
+      gap: 4rem;
+    }
+    
+    .skills-content {
+      flex-direction: column; 
+      align-items: center;
+      gap: 6rem;
+    }
+ 
+}
+
+
+@media (max-width: 768px) {
+    .project-content {
+        grid-template-columns: 1fr;
+        gap: 5px;
+    }
+
+    .project-content h3 {
+        font-size: 1.5rem;
+    }
+
+    .project-content p {
+        font-size: 1rem;
+    }
+}
+
+
+@media (max-width: 480px) {
+    .project-content h3 {
+        margin-top: 1rem;
+        font-size: 1.25rem;
+    }
+
+    .project-content p {
+        font-size: 0.875rem;
+    }
+}
+
+@media (max-width: 280px) {
+    footer {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 1rem;
+        text-align: center;
+    }
+
+    footer .column {
+        text-align: center;
+    }
+
+    footer .column .logo {
+        max-width: 80px;
+        margin-bottom: 1rem;
+    }
+
+    footer .column p {
+        margin-bottom: 1rem;
+    }
+
+    footer .column .socials {
+        justify-content: center;
+        margin-bottom: 1rem;
+    }
+
+    footer .column h4 {
+        margin-bottom: 1rem;
+    }
+
+    footer .column>a {
+        margin-bottom: 0.5rem;
+    }
+}
