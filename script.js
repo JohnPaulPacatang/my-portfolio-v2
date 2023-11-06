@@ -133,7 +133,7 @@ window.addEventListener('load', function() {
       top: 0,
       behavior: 'smooth',
     })
-  }, 2000)
+  }, 1500)
 })
 // === LOADERS END === //
 
