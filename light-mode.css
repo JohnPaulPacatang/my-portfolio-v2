@@ -281,34 +281,6 @@ body.light-mode .overlay p {
 /* === CERTIFICATES COLOR END === */
 
 
-/* === TESTIMONIALS COLOR START === */
-body.light-mode .testimonials {
-    background-color: #efefef;
-}
-
-body.light-mode .testimonials h2 {
-    color: #121212;
-}
-
-body.light-mode .testimonials p {
-    color: #121212;
-}
-
-body.light-mode .blog-slider {
-    background: #ffffff;
-}
-
-body.light-mode .blog-slider__code {
-    color: #121212;
-}
-
-body.light-mode .blog-slider__text {
-    color: #121212;
-}
-
-/* === TESTIMONIALS COLOR END === */
-
-
 /* === CONTACT COLOR START === */
 body.light-mode .contact h2 {
     color: #121212;
